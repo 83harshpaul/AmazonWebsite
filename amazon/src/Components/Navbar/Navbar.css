@@ -1,0 +1,53 @@
+.navbar{
+    background-color: #232f3e;
+    display: flex;
+    position: relative;
+    top:78px;
+    max-height:53px ;
+}
+.navbar ul{
+    background-color: #232f3e;
+    display: flex;
+    margin: 0;
+    list-style: none;
+    color: #fff;
+    padding-left: 20px;
+    align-items: center;
+}
+.navbar ul li{
+   min-width:fit-content;
+    font-size: 18px;
+    padding: 8px 9px;
+    /* margin: 5px 0 6px 0; */
+    font-weight: 500;
+
+}
+.navbar ul li:hover{
+    border-radius: 3px;
+    border:1px solid #fff;
+    cursor: pointer;
+}
+.navbar .shopNow{
+    margin-left:auto;
+    padding:  4px 0;
+    cursor: pointer;
+    /* height: 35px; */
+    
+}
+ .threeLines{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px 9px 8px 9px;
+    
+}
+.threeLines img{
+    margin-right: 5px ;
+    padding: 4px 0;
+}
+.threeLines span{
+    font-weight:bold;
+}
+.navbar .nav-item{
+    padding:12px 9px;
+}

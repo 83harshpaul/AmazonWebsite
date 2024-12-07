@@ -1,0 +1,31 @@
+.search-his-car {
+    border: 1px solid rgb(228, 220, 220);
+    width: 165px;
+    background-color: #fff;
+    /* margin: 100px; */
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search-his-car .img{
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height:100px; 
+    
+    
+}
+
+.search-his-car .productName{
+    margin: 0;
+    margin-top: 10px;
+    
+    letter-spacing: 0.5px;
+}
+.search-his-car .viewed{
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+}
+

@@ -1,0 +1,88 @@
+.allContents{
+  margin: 0 35px;
+  /* background-color: #fff; */
+}
+
+.circle_carousel {
+    background-color: #fff;
+    overflow: hidden;
+  /* width: 1810px; */
+  width: 1775px;
+  padding: 20px;
+}
+.carouselTwo{
+  margin: 30px 0;
+}
+.circle_carousel p{
+  margin:0;
+}
+.circle_carousel .dealOne{
+  font-size:26px;
+  font-weight: bold;
+}
+.circle_carousel .explore{
+  margin-left: 20px;
+  color: #0585d5;
+  font-size: 17px;
+  cursor: pointer;
+}
+.circle_carousel .explore:hover{
+  color:#F87C04;
+  text-decoration: underline;
+}
+.circle_carousel_One,.circle_carousel_Two{
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.circle_carousel_One ul,
+.circle_carousel_Two ul{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    transition: all 0.5s ease;
+   
+    /* overflow-y: hidden; */
+    /* transform: translateX(-31.5%); */
+}
+.circle_carousel:hover ~ .circle_carousel_One ul{
+  overflow-x: scroll;
+}
+.circle_carousel_One .leftButton1,.rightButton1,
+.circle_carousel_Two .leftButton2,.rightButton2{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: grey;
+  padding:40px 20px;
+  /* border: 1px solid black; */
+  border-radius: 0 5px 5px 0;
+  background-color: rgb(255,255,255,0.9);
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+  z-index: 2;
+  cursor: pointer;
+}
+.circle_carousel_One .rightButton1,
+.circle_carousel_Two .rightButton2{
+  right:0;
+  border-radius:  5px 0 0 5px;
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+.box_carousel{
+  display: flex;
+  margin: 30px 0;
+  gap:30px;
+}
+
+/* /////////////////////////////// */
+
+.advirtisement{
+  /* width: 1775px; */
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}

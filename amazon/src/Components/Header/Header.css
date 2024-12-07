@@ -1,0 +1,284 @@
+.header{
+    display: flex;
+    background-color: #0F1111;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0  10px;
+    /* gap: 10px; */
+    /* position: fixed; */
+    height: 80px;
+}
+.amalogo{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #0F1111;
+    padding:  8px;
+    
+}
+.amalogo:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.amalogo img{
+    width: 130px;
+    height:40px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.amalogo span{
+    background-color: #0F1111;
+    color: #fff;
+    font-size:17px;
+    margin-top: 8px;
+}
+.location{
+    min-width: 154px;
+    display: flex;
+    background-color: #0F1111;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 0;
+}
+.location:hover{
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.location img{
+    width: 20px;
+    height: 25px;
+    /* color: #fff; */
+    background: #0F1111;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+}
+.address span{
+    color: #fff;
+}
+.address .add1{
+ color: rgb(171, 171, 171);
+ /* margin: 0; */
+ /* height: 14px; */
+ font-size: 14.5px;
+}
+.address .add2{
+ /* margin: 0; */
+ font-size: 18px;
+ font-weight: bold;
+ color: #fff;
+ /* height: 13px; */
+}
+.searchBar{
+    display: flex;
+    margin-left:10px ;
+    width: 55%;
+    min-width: 429px;
+}
+
+.searchBar .btn1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /* padding:12px 10px; */
+    font-size: 15px;
+    border: 1px solid rgb(194, 190, 190);
+    border-radius: 5px 0 0 5px;
+    color: grey;
+    cursor: pointer;
+    
+}
+.searchBar .btn1:hover{
+    background-color:#cfcdcd;
+}
+
+.btn1 select{
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+        font-size: 15px;
+        outline: none;
+        padding: 10px 5px;
+        cursor: pointer;
+        /* background-image: url('your-custom-arrow.svg'); Custom arrow */
+        /* background-repeat: no-repeat; */
+        /* background-position: right 10px center; Position the arrow */
+        /* padding-right: 30px; Make space for the custom arrow */
+        background-color: #F0F0F0;
+        
+}
+.searchBar .btn1:hover   select{
+    background-color: #cfcdcd;
+}
+.searchBar .btn1:hover   select option{
+    background-color: #fff;
+}
+
+.btn1 select option{
+    font-size:18px;
+}
+.searchBar .btn2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding:0 15px;
+    font-size: 22px;
+    border: 1px solid rgb(194, 190, 190);
+    border-radius:0 5px  5px 0;
+    /* margin-left: auto; */
+    background-color: #febd69;
+}
+.searchBar .btn2:hover{
+    background-color: #f3a744;
+    cursor: pointer;
+}
+.searchBar input{
+    font-size: 18px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+}
+.searchBar.focused{
+    box-shadow:0 0 2px 5px  #febd69;
+    border-radius:5px;
+}
+.btn1.focused{
+    box-shadow:0 0 2px 5px  #febd69;
+    /* border-radius:5px; */
+}
+.down1{
+    /* margin-left:10px; */
+    margin-bottom: 5px;
+    color: grey;
+}
+.header .language{
+    min-width: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15px;
+    gap: 4px;
+    padding: 22px 15px 12px 15px;
+    /* border:1px solid white; */
+}
+.header .language:hover{
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 3px;
+}
+.language span{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    /* margin-left: 4px; */
+}
+.language .down3{
+    color:grey;
+    margin-bottom: 4px;
+
+}
+.language img{
+    width: 21px;
+    height: 16px;
+    margin-bottom: 5px;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    /* margin-left: 10px; */
+    min-width: 153px;
+    padding: 16px 13px;
+    padding-right: 0;
+}
+.account:hover{
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 3px;
+}
+.account .harsh{
+    font-size:15px;
+}
+.account .stat2{
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    height: 13px;
+}
+.stat2 .down2{
+    font-size:13px;
+    color: grey;
+}
+.orders{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    /* margin-left: 15px; */
+    min-width: 82px;
+    padding: 16px 13px;
+    background-color: #0F1111;
+    padding-right:6px ;
+}
+.orders:hover{
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 3px;
+}
+.orders .stat1{
+    height: 16px;
+    font-size: 15px;
+}
+.orders .stat2{
+    font-weight: bold;
+    font-size: 17px;
+    /* display: flex;
+    align-items: center; */
+    /* gap:5px; */
+    height: 16px;
+}
+.cart{
+    color: #fff;
+    font-size: 30px;
+    /* margin-left: 20px; */
+    display: flex;
+    position: relative;
+    /* margin-top: 12px; */
+    min-width: 72px;
+    background-color: #0F1111;
+    padding: 20px 10px 8px ;
+}
+.cart:hover{
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 3px;
+}
+.cart .balti{
+    font-size:19px;
+    font-weight: bold;
+    margin-top: 12px;
+} 
+.cart .cartItem{
+    position: absolute;
+    z-index: 5;
+    color: #febd69;;
+    font-size: 16px;
+    font-weight: bold;
+    left: 18px;
+    top: 5px;
+}

@@ -1,0 +1,120 @@
+.carusel{
+    height:600px;
+    /* padding: 0 15px; */
+    position: relative;
+    margin: 0 15px;
+    overflow: hidden;
+    z-index: 0;
+    top:78px;
+}   
+ .carusel ul{
+    margin: 0;
+    padding: 0  ;
+    background-color: #fff;
+    width:600%;
+    display: flex;
+    list-style: none;
+    /* transform: translateX(-16.7%); */
+    /* transform: translateX(-33.4%); */
+    /* transform: translateX(-50.1%); */
+    /* transform: translateX(-66.8%); */
+    /* transform: translateX(-83.5%); */
+    /* transform: translateX(-100%); */
+     z-index: 1;
+    transition: 0.5s ease all;
+} 
+
+
+.carusel ul li{
+    margin: 0;
+    padding: 0 ;
+    width:50%;
+}
+.carusel .left,.right{
+    position: absolute;
+    /* height: 308px; */
+    font-size: 40px;
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
+    padding: 125px 35px 130px 35px;
+    /* border: 3px solid #058d7d;
+    box-shadow: 0 0 2px 3px #fff; */
+    z-index: 2;
+    cursor: pointer;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.carusel .right{
+    right: 0px;
+}
+ul li .caro{
+    height: 600px;
+    width: 100%;
+}
+.caro .image{
+    height:308px;
+    width: 100%;
+}
+.carusel .caro .image1{
+    background-image: url(../Assests/photo1.png);
+    background-position: center;
+    background-size:auto;
+    /* box-shadow: 0px 4px 8px rgba(214, 122, 9, 0.94); */
+    background-repeat: no-repeat;
+    
+}
+.carusel .caro .image2{
+    background-image: url(../Assests/photo2.png);
+    background-position: center;
+    background-size: contain;
+}
+.carusel .caro .image3{
+    background-image: url(../Assests/photo3.png);
+    background-position: center;
+    background-size: contain;
+}
+.carusel .caro .image4{
+    background-image: url(../Assests/photo4.png);
+    background-position: center;
+    background-size: contain;
+}
+.carusel .caro .image5{
+    background-image: url(../Assests/photo5.png);
+    background-position: center;
+    background-size: contain;
+}
+.carusel .caro .image6{
+    background-image: url(../Assests/photo6.png);
+    background-position: center;
+    background-size: contain;
+}
+.carusel .caro .images1{
+    height: 292px;
+    width: 100%;
+    background: linear-gradient(to bottom, #F87C04 10%,  rgb(225, 222, 222) 90%);
+}
+.caro .images2{
+    height: 292px;
+    width: 100%;
+    background: linear-gradient(to bottom, #bd236d 10%,  rgb(225, 222, 222)90%);
+}
+.caro .images3{
+    height: 292px;
+    width: 100%;
+    background: linear-gradient(to bottom, #0585d5 10%,  rgb(225, 222, 222) 90%);
+}
+.caro .images4{
+    height: 292px;
+    width: 100%;
+    background: linear-gradient(to bottom, #058d7d 10%,  rgb(225, 222, 222) 90%);
+}
+.caro .images5{
+    height: 292px;
+    width: 100%;
+    background: linear-gradient(to bottom, #815d04 10%,  rgb(225, 222, 222) 90%);
+}
+.caro .images6{
+    height: 292px;
+    width: 100%;
+    background: linear-gradient(to bottom, #059746 10%,  rgb(225, 222, 222) 90%);
+}

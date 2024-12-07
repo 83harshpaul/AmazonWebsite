@@ -1,0 +1,42 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    min-height:512px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* margin-left: 90px;
+    margin-bottom: 50px; */
+    background-color:#fff;
+    padding:20px 15px 0px 20px;  
+}
+
+.box .things{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+.box h1{
+    font-size:27px;
+    margin-top: 0;
+}
+.part{
+    min-height:190px;
+}
+.part p{
+    margin-top:0;
+    cursor: pointer;
+}
+.part img{
+    cursor: pointer;  
+    
+}
+.offers{
+    margin-top: 0;
+    font-size:16px;
+    color: rgb(37, 150, 190);
+    cursor: pointer;
+}
+.offers:hover{
+    color: #F87C04;
+}

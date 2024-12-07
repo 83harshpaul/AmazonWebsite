@@ -1,0 +1,14 @@
+.carouselCircle{
+    width: 260px;
+    height:260px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.circleImage{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #fff;
+}

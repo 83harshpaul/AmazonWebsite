@@ -1,0 +1,10 @@
+.carouselPhoto{
+    width: 150px;
+    height: 260px;
+    /* border: 2px solid black; */
+    /* margin: 100px; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+.historyCarousel{
+    min-height: 520px;
+    width: 220px;
+    /* border: 1px solid black; */
+    /* margin:100px; */
+    background-color: white;
+    padding: 0 10px;
+}
+.historyCarousel .info{
+    font-size: 18px;
+    color: #007185;
+    margin: 0;
+    cursor: pointer;
+}
+.historyCarousel .info:hover{
+    color: rgb(153, 109, 5);
+}
+
+.tasvir{
+    width: 200px;
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.historyCarousel .star{
+    /* color: #FFD43B; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.star img{
+    height: 18px;
+    width: 90px;
+}
+.star .number{
+    color: #007185;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.view{
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+}
+.sign{
+    margin-left: 4px;
+}
+.bestSeller {
+    /* display: flex; */
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    line-height: 1;
+
+}
+.bestSeller img{
+    height: 25px;
+    width: 120px;
+}
+
+.pinfo{
+    margin: 0;
+}
+.discountNumber{
+    font-size:24px;
+    color: rgb(220, 60, 60);
+    letter-spacing: 1px;
+    margin-right:10px;
+    cursor: pointer;
+}
+.counts{
+    color: black;
+    margin: 0;
+    font-size:15px;
+}
+.salePhoto{
+    margin: 8px 0;
+    
+}
+.historyCarousel .discount{
+    font-weight: normal;
+    padding: 4px;
+}
+.mRp{
+    margin: 0;
+    
+}
+.mRp .mrp{
+    margin: 0;
+}
+.deliveryDate{
+    margin: 4px 0;
+    font-size:15px;
+}
+.date{
+    font-weight: bold;
+}
+.free{
+    margin: 0;
+}
+.offersFrom{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 18px;
+}
+.priceperpiece{
+    margin: 0;
+    margin-left: 5px;
+}
+.shipping{
+    margin: 0;
+}

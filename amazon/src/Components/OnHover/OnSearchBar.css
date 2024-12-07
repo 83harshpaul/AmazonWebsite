@@ -1,0 +1,408 @@
+
+.onSearchBar{
+  display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* height: 86%; */
+    /* height: 91.5%; */
+    background: rgba(0,0,0,0.4);
+    z-index: 100;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+
+.onSearchBar .searchHistory{
+    position: relative;
+    background-color: #fff;
+    /* height: auto; */
+    padding:  20px;
+    height:185px;
+    width: 49%;
+    border: 1px solid rgb(228, 220, 220);
+    left: 22.2%;
+    /* top: -66px; */
+    /* top: -15px; */
+  
+}
+.onSearchBar .searchHistory h1{
+    font-size:20px;
+    margin: 0;
+    margin-bottom:10px;
+
+}
+
+.onSearchBar .searchCarousel{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 125;
+}
+
+.onSearchBar .searchHistory ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    transition: 0.4s all ease;
+    /* overflow-x: scroll; */
+    /* transform: translateX(-40.3%); */
+}
+.searchCarousel .leftButton6,.rightButton6{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: grey;
+    padding: 15px 18px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: rgb(255,255,255,0.9);
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+    z-index: 150;
+    cursor: pointer;
+    
+    
+  }
+  .searchCarousel .leftButton6{
+    left: -5px;
+  }
+ 
+  .searchCarousel .rightButton6{
+    right:-5px;
+    /* border-radius:  5px 0 0 5px; */
+  }
+  .searchCarousel .leftButton6:hover,.rightButton6:hover{
+    border:3px solid #058d7d;
+  }
+.onSearchBar.hide{
+    display: none;
+}
+/* ................................................................... */
+
+.langBox{
+  display: block;
+  position: relative;
+  /* margin: 100px; */
+  top: -82px;
+  left:73.5%;
+  padding: 20px;
+  /* padding-top: 0; */
+  /* z-index: 150; */
+}
+.rotatedBox{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background:#fff;
+  top: 10px;
+  left: 85px;
+  transform: rotate(45deg);
+}
+.mainLang{
+  display: block;
+  background-color: #fff;
+  padding: 20px 20px 20px 0;
+  border-radius:5px;
+}
+
+.mainLang ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* z-index: 125; */
+
+}
+.mainLang ul li{
+  color: #333;
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  width: 100%;
+  padding-left: 20px;
+}
+.mainLang .eng{
+  border-bottom: 1px solid rgb(225, 218, 218);
+  width: 85%;
+  height: 35px;
+}
+.mainLang ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+  /* z-index: 200; */
+}
+.mainLang ul li label{
+  display: block;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  /* padding-left:30px ; */
+  margin-left: 30px;
+  width: 100%;
+  /* z-index: 150; */
+}
+.mainLang ul li:hover label{
+  color: #F87C04;
+  text-decoration: underline;
+}
+.mainLang ul li .check{
+  display: block;
+  position: absolute;
+  border: 2px solid rgb(174, 170, 170);
+  border-radius: 100%;
+  height: 18px;
+  width: 18px;
+  top: 0;
+  z-index: 125;
+}
+
+.mainLang ul li .check::before{
+  display: block;
+  position: absolute;
+  content: "";
+  border-radius: 100%;
+  height: 12px;
+  width: 12px;
+  top: 3px;
+  left: 3px;
+}
+
+.mainLang ul li:hover .check::before{
+  background: #F87C04;
+  
+}
+.mainLang ul li input[type=radio]:checked ~ .check::before{
+  background: #F87C04;
+}
+/* .mainLang ul li input[type=radio]:checked ~ label{
+  color: #F87C04;
+} */
+p img{
+  width: 20px;
+  margin-right: 10px;
+}
+.mainLang p{
+  margin-left: 20px;
+}
+.mainLang hr{
+  margin-left:50px;
+  border-top: 1px solid rgb(202, 198, 198)
+}
+.mainLang .learn,
+.mainLang .desh{
+  margin-left:50px;
+  color: #0585d5;
+  letter-spacing: 0.3px;
+}
+.mainLang .desh{
+  margin-bottom:0 ;
+}
+
+/* .............................................. */
+.onAccounts{
+  position: relative;
+  padding: 20px;
+  z-index: 150;
+  left: 45.7%;
+  /* top: -80px; */
+  /* top: -29px; */
+}
+.rotatedOne{
+  position:absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  top:10px;
+  left:80%;
+  transform:rotate(45deg);
+}
+
+
+.onAccounts .accountInfo{
+  display: grid;
+  grid-template-columns: 35% 65%;
+  width: 945px;
+  height:640px;
+  background-color: #fff;
+  border-radius:5px;
+  
+}
+.accountInfo .buyAgain{
+  border-right: 2px solid rgb(241, 236, 236);
+  padding: 15px;
+  
+}
+.buyAgain h1{
+  margin: 0;
+  font-size: 23px;
+}
+.mess{
+  margin: 4px 0;
+  font-size:17.5px;
+  color: #448592;
+  
+}
+.mess:hover{
+  color:#F87C04;
+  cursor: pointer;
+}
+.three {
+  display: flex;
+  margin-top: 15px;
+}
+.three .pic{
+  
+  display: flex;
+  justify-content: center;
+  
+  height: 100px;
+  width: 150px;
+  margin-right: 15px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.three .pic img{
+  height: 100px;
+  /* width: 150px; */
+}
+.picInfo p{
+  margin: 5px 0;
+}
+.pName{
+  color: #448592;
+  font-weight: 500;
+  font-size:17px
+}
+.pName:hover{
+  color:#F87C04;
+  /* text-decoration: underline; */
+  cursor: pointer;
+}
+.picInfo .rate{
+  color:#884342;
+}
+
+.pic.nes{
+  margin-right:20px;
+  width: 150px;
+  margin-left: 15px;
+}
+.rate span{
+  font-size:15px;
+}
+.picInfo .addBtn{
+  border:none;
+  outline: none;
+  padding:6px 9px;
+  border-radius: 15px;
+  background-color: #f5d022;
+  cursor: pointer;
+}
+.bAndC{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  /* padding: 0 25px; */
+}
+.bAndC hr{
+  border-top:1px solid rgb(246, 240, 240)
+}
+.bAndC ul{
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  list-style: none;
+  
+}
+.bAndC ul li{
+  margin-bottom:10px;
+}
+.bAndC ul li:hover{
+  color:#F87C04;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boxA{
+  padding:20px 30px;
+}
+.boxA .profiles{
+  background-color: #e6f0f0;
+  padding: 6px 22px;
+  border-radius: 10px;
+}
+.boxA .profiles p{
+  display: flex;
+}
+.boxA .profiles p .manageProfile{
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  margin-left: auto;
+  color: #448592;
+}
+.boxA .profiles p .manageProfile:hover{
+  color:#F87C04;
+  /* text-decoration: underline; */
+  cursor: pointer;
+}
+.manageProfile .rBtn{
+  font-size: 14px;
+  margin-left: 15px;
+ 
+}
+.bAndC h1{
+  font-size:21px;
+  margin: 0;
+}
+.bAndC .boxB{
+  border-right: 2px solid rgb(245, 240, 240);
+  padding: 0 25px;
+}
+.alexa{
+margin-bottom: 0;
+
+}
+.alexa:hover{
+  color:#F87C04;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shopLists{
+  margin: 10px 0;
+}
+.shopLists:hover{
+  color:#F87C04;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bAndC .boxB .zero{
+  margin: 0;
+  color: grey;
+  font-size: 12px;
+  /* letter-spacing: 1px; */
+}
+.bAndC .boxC{
+  padding: 0 25px;
+}
+.bAndC .switch{
+  margin-bottom: 8px;
+  
+}
+.bAndC .switch:hover,
+.boxC .signOut:hover{
+  color:#F87C04;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.boxC .signOut{
+  margin: 0
+}
+
+
+   

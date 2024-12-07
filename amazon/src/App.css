@@ -1,0 +1,20 @@
+.app{
+    position: relative;
+}
+.lifted{
+    position: absolute;
+    top: 439px;
+}
+.absoluted{
+    position: absolute;
+    top: 56px;
+    right: 43px;
+    z-index: 100;
+    display: none;
+}
+.mainHeader{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+  

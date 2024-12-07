@@ -1,0 +1,142 @@
+.footer{
+    background-color:#232F3E;
+}
+
+.btn{
+    width: 100%;
+    font-size:17px;
+    border: none;
+    outline: none;
+    padding:18px 0;
+    color:white;
+    background-color: #37475A;
+}
+.btn:hover{
+    background-color:#37475adb ;
+    cursor: pointer;
+}
+.allLinks{
+    background-color:#232F3E;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.subLinks{
+    background-color:#232F3E;
+    color: white;
+    display: flex;
+    margin: 45px 0;
+    gap: 80px;
+}
+.subLinks .mainHeading{
+    font-size:21px;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+}
+.subLinks ul li{
+    margin-bottom:10px;
+    font-size: 18px;
+    list-style: none;
+    color: rgb(213, 208, 208);
+}
+.subLinks ul a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.line{
+    background-color: #818181;
+    
+}
+.footer .language{
+    display:flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: center;
+}
+.footer .language .globe{
+    background-color:#232F3E;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer .language .amalogo{
+    background-color:#232F3E;
+    width: 100px;
+    height: 35px;
+    margin-right: 150px;
+    border: none;
+}
+
+.lang{
+    font-size: 15px;
+    color: white;
+    padding: 11px 20px;
+    border: 1px solid grey;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.lang .upper{
+    margin-left: 10px;
+    width: 11px;
+
+}
+.country{
+    font-size:15px;
+    color: white;
+    padding: 11px 20px;
+    border: 1px solid grey;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+
+
+.country img {
+    margin-right: 10px;
+}
+.realFooter{
+    background-color:#131A22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 300px;
+    padding-top: 40px;
+}
+.smallLinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: center; */
+    /* column-gap: 100px; */
+}
+.smallLinks ul{
+    margin-top:0
+}
+.smallLinks ul li{
+   color:rgb(175, 169, 169);
+   list-style: none;
+   line-height: 1.2;
+   font-size: 15px; 
+}
+.smallLinks ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.smallLinks .links{
+    color: white;
+}
+.conditions{
+    text-align: center;
+    padding: 30px 0;
+}
+.conditions p{
+    color: #fff;
+    margin:0;
+}
+.conditions .cond{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}

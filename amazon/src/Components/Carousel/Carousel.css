@@ -1,0 +1,66 @@
+.carousel{
+    /* display: inline-block; */
+    width: 300px;
+    height:373px;
+    box-sizing: border-box;
+    background-color: #fff;
+    /* margin: 100px; */
+    padding: 8px 5px;
+    border-radius: 5px;
+}
+.imageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+.carousel p{
+    margin: 0;
+    margin-top: 5px;
+}
+.discount{
+    background-color: #CC0C39;
+    padding:5px;
+    color: #fff;
+    font-weight:bold;
+    border-radius: 4px;
+}
+.saleName{
+    color: #CC0C39;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.priceInfo{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.rupeeSign{
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.doubleZeroes{
+    margin-bottom: 4px;
+    font-size: 13px;
+    /* font-weight: bold; */
+    color: black;
+}
+
+.price{
+    font-size:24px;
+}
+.mrp{
+    margin-left: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #565959;
+}
+.mrprice{
+    letter-spacing: 0;
+    margin-left: 4px;
+    text-decoration: line-through;
+}
